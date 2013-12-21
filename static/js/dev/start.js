@@ -3,8 +3,6 @@
 
   $j = jQuery;
 
-  $j(function() {
-    return $j().ready(function() {});
-  });
+  $j(function() {});
 
 }).call(this);

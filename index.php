@@ -1,1 +1,1 @@
-<?php require_once('views/pages/home/index.phtml'); ?>
+<?php require_once('views/phtml/pages/home/index.phtml'); ?>

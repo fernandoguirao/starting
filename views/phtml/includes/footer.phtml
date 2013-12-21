@@ -1,0 +1,19 @@
+<script src="static/js/app.js"></script>
+<script>
+$(function()
+{
+  var BV = new $.BigVideo();
+  BV.init();
+  if (Modernizr.touch)
+  {
+    BV.show('media/images/background-dock.jpg');
+  }
+  else
+  {
+    BV.show('media/videos/sexy.mp4',
+    {
+      ambient: true
+    });
+  }
+});
+</script>
