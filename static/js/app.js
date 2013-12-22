@@ -5048,7 +5048,7 @@ var selectpickercalled = false;
     });
     BV.init();
     if (Modernizr.touch) {
-      BV.show("media/images/background-dock.jpg");
+      BV.show("static/img/bckg.jpg");
     } else {
       BV.show("media/videos/sexy.mp4", {
         ambient: true,
