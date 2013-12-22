@@ -1,0 +1,51 @@
+.section-01 {
+  p {
+    font-size:20px!important;
+    line-height:normal!important;
+    position: relative;
+    top:10px;
+  }
+  h3 {
+    font-size:29px!important;
+    line-height:normal!important;
+    text-transform: uppercase;
+    margin-top:115px!important;
+    @media (max-width: 767px) {
+      text-align:center;
+      font-size:18px!important;
+    }
+  }
+  .brand {
+    img.icono {
+      margin-bottom:10px;
+    }
+  }
+}
+
+/* ELEMENTOS QUE PUEDEN SER COMUNES A OTROS SLIDES */
+
+.hover-scape {
+  img {
+    position: relative;
+    .transition-two(top,left,.4s,ease);
+  }
+  .img-iphone {
+    width:144px;
+  }
+  .img-ipad {
+    width:250px;
+    top: 42px;
+    left: 84px;
+  }
+  &:hover {
+    .img-ipad {
+      top: 1px;
+      left: 186px;
+    }
+    .img-iphone {
+      top: 33px;
+      left: -131px;
+    }
+  }
+}
+
