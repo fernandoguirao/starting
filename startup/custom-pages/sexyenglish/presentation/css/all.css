@@ -22,8 +22,8 @@ li.copyright a:hover {border-bottom:1px solid #dfdfdf; color:#64686c!important;}
 
 #footer-wrapper {padding: 30px 0 50px;} 
 
-* { font-family:proxima-nova, sans-serif!important;}
-.presenation * { -moz-box-sizing: border-box !important; -webkit-box-sizing: border-box !important; box-sizing: border-box; font-family:proxima-nova, sans-serif;}
+* { font-family:gt_walsheim_regular, sans-serif;}
+.presenation * { -moz-box-sizing: border-box !important; -webkit-box-sizing: border-box !important; box-sizing: border-box; font-family:gt_walsheim_regular, sans-serif;}
 .presenation a {color:#303336;text-decoration:none;border-bottom:1px solid #d5d6d6;}
 .presenation a:hover {color:#64686c;text-decoration:none;border-bottom:1px solid #d5d6d6;}
 .holder { width: 1104px; margin: 0 auto; }
