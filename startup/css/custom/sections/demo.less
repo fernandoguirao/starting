@@ -1,3 +1,19 @@
-.demo .background div {
-  .background-size(cover);
+.demo {
+  .background div {
+    .background-size(cover);
+  }
+  background-color:@carne;
+  h1,p,h2,li p strong {
+    color:@marron;
+  }
+  a.button {
+    color:@marron!important;
+    border-color:@marron!important;
+    background-color:@carne!important;
+    &:hover {
+      background-color:@marron!important;
+      color:@carne!important;
+      border-color:@marron!important;
+    }
+  }
 }

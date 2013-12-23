@@ -189,18 +189,23 @@ $(document).ready(function() {
 			var speed = 2;
 			var offsetSize = 200;
 			var samplesCont = $('.samples .holder').offset();
+/*
 			var componentsCont = $('.components .holder').offset();
 			var posFromTop = componentsCont.top - $(window).height() + offsetSize;
+*/
 			
 			
+/*
 			if ($(document).scrollTop() >= componentsCont.top - $(window).height() + 200) {
 				componentGrid.masonry({itemSelector: '.screen'});
 			}
+*/
 			if ($(document).scrollTop() >= samplesCont.top - $(window).height() + 200) {
 				samplesGrid.masonry({itemSelector: '.screen'})
 			}
 			
-			//components
+
+/*
 			if ($(document).scrollTop() >= componentsCont.top - $(window).height()/2) {
 				if (!$('.components .holder').hasClass('shown')) {
 					if ((!window.isMobile) && (!$.browser.mozilla)) {
@@ -210,10 +215,11 @@ $(document).ready(function() {
 							$(this).css('-webkit-animation',"animatedIntro "+speed).css('-ms-animation',"animatedIntro "+speed).css("-o-animation", "animatedIntro "+speed).css("animation","animatedIntro "+speed);
 						});
 					}
-					//finito
+
 					$('.components .holder').addClass('shown');
 				}
 			} 
+*/
 	
 			//samples
 			if ($(document).scrollTop() >= samplesCont.top - $(window).height()/2) {
@@ -292,8 +298,8 @@ $(document).ready(function() {
 		},
 		buttons: {
 			twitter: {
-				custom: 'Startup Design Framework - http://designmodo.com/startup/ Suit Up your Startup!',
-				via: 'Designmodo',
+				custom: 'Sexy English: http://sexy-english.com/ Learn English... Be Sexy!',
+				via: 'sexyenglishlearning',
 				url: false
             }
 		},
