@@ -22,10 +22,10 @@ $(document).ready(function() {
 	//bg video
     $.backgroundVideo($('#bgVideo'), {
         "align": "centerXY",
-		 "path": "http://designmodo.com/storage/",
+		 "path": "custom-pages/sexyenglish/common-files/media/",
         "width": 846,
         "height": 476,
-        "filename": "startuppreview",
+        "filename": "sexy",
         "types": ["mp4", "ogg", "webm"]
     });
 	
