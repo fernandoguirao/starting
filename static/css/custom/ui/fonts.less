@@ -5,9 +5,15 @@ p, b, a, h1, h2, h3, h4, h5,button,.btn,div,li {
 
 p.font {
   font-size:20px;
+  line-height:normal!important;
 }
 
 h3.font {
   font-size:29px;
   text-transform: uppercase;
+  line-height:normal!important;
+  @media (max-width: 767px) {
+    text-align:left;
+    font-size:23px!important;
+  }
 }

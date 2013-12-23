@@ -1,21 +1,18 @@
-header.navbar.navbar-fixed-top.bs-docs-nav(role='banner')
+#skrollr-body
+
+header.navbar.navbar-fixed-top.bs-docs-nav(role='banner',data-0="background-color:rgba(0,0,0,0)",data-250="background-color:rgba(0,0,0,.15)")
   .container
     .navbar-header
-      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.bs-navbar-collapse')
-        span.sr-only
-          //- Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-      a.navbar-brand(href='./',data-0="margin-top:-40px",data-10="margin-top:0")
-        | Sexy English
-    nav.collapse.navbar-collapse.bs-navbar-collapse(role='navigation')
+      a.navbar-brand(href='./',data-0="opacity:0",data-250="opacity:1")
+        img.icono.hidden-xs(src="static/img/icono2.png",width="30",alt="")
+        img.hidden-xs(src="static/img/logo.png",height="50",alt="")
+    nav(role='navigation')
       //-
         ul.nav.navbar-nav
           li
-            a(href='./getting-started') Getting started
+            a(href='./getting-started')
       ul.nav.navbar-nav.navbar-right
-        li
-          a(href='./about') Suscríbete
-        li
-          a(href='./about') Síguenos en Facebook
+        li.hidden-xs
+          a.btn.btn-alpha(href='./about') Suscríbete
+        li.hidden-xs
+          a.btn.btn-alpha(href='./about') Síguenos en Facebook

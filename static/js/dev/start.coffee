@@ -11,5 +11,5 @@ $ ->
       ambient: true
       altSource: "media/videos/sexy.ogv"
 
-
   s = skrollr.init()
+  

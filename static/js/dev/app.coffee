@@ -12,6 +12,8 @@ $j = jQuery
 
 $j ->
   
+  $j('.from-left,.from-right,.from-alpha').each ->
+    $j(this).addClass('play')
 #   
 #   if isRightColumn.length > 0
 #     $j('.toggle-right').click ->
