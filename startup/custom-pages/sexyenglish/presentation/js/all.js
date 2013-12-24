@@ -290,6 +290,7 @@ $(document).ready(function() {
 	});
 
     //sharre
+/*
     $('.social .holder').sharrre({
 		share: {
 			googlePlus: true,
@@ -326,6 +327,7 @@ $(document).ready(function() {
 			console.log("Shares summary: "+summ);
         }
     });
+*/
 		
 	//FUNCTIONS	
 		
