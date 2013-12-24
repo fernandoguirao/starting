@@ -1,12 +1,12 @@
 $(document).ready(function() {
 	
 	$('.show-suscribe').click(function(){
-  	$('.subscribe-form').css({'bottom':'0'});
+  	$('.subscribe-form').css({'bottom':'0','opacity':'1'});
   	$('#theinput').focus();
 	});
 	
 	$('.no-thanks').click(function(){
-  	$('.subscribe-form').css({'bottom':'-200px'});
+  	$('.subscribe-form').css({'bottom':'-400px','opacity':'0'});
   	$('#theinput').val('');
 	});
 	if (window.isMobile){
