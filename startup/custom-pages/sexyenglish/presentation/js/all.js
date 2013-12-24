@@ -1,5 +1,14 @@
 $(document).ready(function() {
 	
+	$('.show-suscribe').click(function(){
+  	$('.subscribe-form').css({'bottom':'0'});
+  	$('#theinput').focus();
+	});
+	
+	$('.no-thanks').click(function(){
+  	$('.subscribe-form').css({'bottom':'-200px'});
+  	$('#theinput').val('');
+	});
 	if (window.isMobile){
 		$('body').addClass('mobile');
 	}
