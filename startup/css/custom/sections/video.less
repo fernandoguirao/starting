@@ -1,5 +1,7 @@
 .container.centrador {
   margin-top:125px;
+  position: relative;
+  z-index:2;
   img {
     display:block!important;
     margin:0 auto!important;
@@ -13,10 +15,23 @@
     color:@carne;
     margin-top: 40px;
     font-weight: normal;
+    padding-bottom:57px;
   }
 }
 
 .video {
   background-color:@fresa;
 /*   background-image:url('../images/bckg.jpg'); */
+}
+
+.fondo-rosa {
+  background-color:rgba(red(@fresa),green(@fresa),blue(@fresa),.5);
+  width:100%;
+  height:100%;
+  position: absolute;
+  z-index:2;
+}
+
+.arrow {
+  position: relative!important;
 }
