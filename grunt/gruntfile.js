@@ -53,9 +53,9 @@ module.exports = function(grunt) {
     jadephp: {
       compile: {
         expand: true,
-        cwd: '../views/jade',
+        cwd: '../jade',
         src: ['**/*.jade'],
-        dest: '../views/phtml/',
+        dest: '../views/',
         ext: '.phtml'
       }
     },
@@ -69,21 +69,21 @@ module.exports = function(grunt) {
       },
       all: {
         expand: true,
-        cwd: '../views/phtml',
+        cwd: '../phtml',
         ext: '.phtml',
         src: ['**/*.phtml'],
-        dest: '../views/phtml/'
+        dest: '../views/'
       }
     },
     
     /* WATCH */
     watch : {
       jadephp : {
-        files: '../views/jade/**/*.jade',
+        files: '../jade/**/*.jade',
         tasks: ['jadephp']
       },
       prettify : {
-        files: '../views/phtml/**/*.phtml',
+        files: '../views/**/*.phtml',
         tasks: ['prettify']
       },
       less : {
